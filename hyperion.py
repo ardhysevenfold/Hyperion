@@ -987,7 +987,7 @@ def main():
     script = Hype.content
     now = round(time() - now, 2)
 
-    with open(f'obf-{filename}', mode='w') as f:
+    with open(f'{filename}', mode='w') as f:
         f.write(script)
     
     print('\n')
